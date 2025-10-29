@@ -26,11 +26,11 @@ while(True):
     if opcion == 1:
         print(capicuas)
     elif opcion == 2:
-        print(f"\nEl arreglo tiene {p} capiculas dentro del arreglo.")
+        print(f"\nEl arreglo tiene {p} capicúas dentro del arreglo.")
     elif opcion == 3:
-        print(f"\nEl promedio del número de capiculas es: {promedio_capicuas}")
+        print(f"\nEl promedio del número de capicúas es: {promedio_capicuas}")
     elif opcion == 4:
-        print("\nsaliento del programa...")
+        print("\nSaliendo del programa...")
         break
     else:
         print("\nOpción incorrecta, vuelve a intentar.")
