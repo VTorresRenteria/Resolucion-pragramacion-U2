@@ -1,3 +1,5 @@
+import numpy as np
+
 def Capicua(num):
     return str(num) == str(num)[::-1]
 
@@ -15,16 +17,13 @@ p = len(capicuas)
 promedio_capicuas = sum(capicuas) / p
 
 while(True):
-    print("\n--- Menú ---")
-    print("1.- Imprimir el arreglo de números capicúas.")
-    print("2.- Imprimir el número de elementos del arreglo.")
-    print("3.- Imprimir el promedio de números capicúas.")
-    print("4.- Salir")
+    print("\n--- Menú ---\n1.- Imprimir el arreglo de números capicúas.\n2.- Imprimir el número de elementos del arreglo.\n3.- Imprimir el promedio de números capicúas.\n4.- Salir")
 
     opcion = int(input("\nElige que hacer: "))
 
     if opcion == 1:
-        print(capicuas)
+        print("\nArreglo de números capicúas:")
+        print(np.array(capicuas))
     elif opcion == 2:
         print(f"\nEl arreglo tiene {p} capicúas dentro del arreglo.")
     elif opcion == 3:
